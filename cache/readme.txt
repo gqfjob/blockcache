@@ -16,4 +16,4 @@
         <?php //deldata("getmeetting", "context",array('id'=>1234));?>
         参数应该和生成缓存规则一致
 先在action目录中根据板块来写取数据的代码,名称规则 $action_$block.php（如 getmeetting_context.php）,该页面需要的参数全部由
-$params传递进来，然后配置缓存规则，在实际代码中调用
+$params传递进来，然后配置缓存规则，在实际代码中调用.
